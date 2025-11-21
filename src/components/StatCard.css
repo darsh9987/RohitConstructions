@@ -1,0 +1,34 @@
+.stat-card {
+    padding: 2rem 2.5rem;
+    border-radius: 16px;
+    min-width: 160px;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    color: var(--text-gray);
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .stat-card {
+        min-width: 130px;
+        padding: 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+}

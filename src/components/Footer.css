@@ -1,0 +1,11 @@
+footer {
+    margin-top: 6rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-top: 1px solid var(--glass-border);
+}
+
+.footer-content p {
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+}
