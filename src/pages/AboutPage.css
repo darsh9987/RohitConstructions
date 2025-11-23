@@ -14,7 +14,7 @@
 
 .page-header p {
     font-size: 1.2rem;
-    color: var(--text-gray);
+    color: var(--text-medium);
     max-width: 700px;
     margin: 0 auto;
 }
@@ -47,7 +47,7 @@
 }
 
 .about-card p {
-    color: var(--text-gray);
+    color: var(--text-medium);
     line-height: 1.8;
 }
 
@@ -87,10 +87,10 @@
 
 .highlight-item h4 {
     margin-bottom: 0.5rem;
-    color: var(--text-light);
+    color: var(--text-dark);
 }
 
 .highlight-item p {
-    color: var(--text-gray);
+    color: var(--text-medium);
     line-height: 1.6;
 }

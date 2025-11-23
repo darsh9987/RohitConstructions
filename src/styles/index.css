@@ -7,20 +7,24 @@
 }
 
 :root {
-  --bg-dark: #0a0a0a;
-  --bg-medium: #1a1a1a;
-  --text-light: #ffffff;
-  --text-gray: #a0a0a0;
-  --accent: #ff6b35;
-  --glass-bg: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --bg-light: #FFF9F0;
+  --bg-secondary: #FFF4E6;
+  --bg-white: #FFFFFF;
+  --text-dark: #2C1810;
+  --text-medium: #6B5947;
+  --accent: #FF8C42;
+  --accent-secondary: #FFB347;
+  --accent-blue: #87CEEB;
+  --border-light: #F0E6D2;
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(240, 230, 210, 0.6);
+  --glass-shadow: 0 8px 32px 0 rgba(44, 24, 16, 0.1);
 }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-  background: var(--bg-dark);
-  color: var(--text-light);
+  background: var(--bg-light);
+  color: var(--text-dark);
   overflow-x: hidden;
   line-height: 1.6;
 }
@@ -33,7 +37,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+  background: linear-gradient(135deg, #FFF9F0 0%, #FFF4E6 50%, #FFEFD5 100%);
 }
 
 .animated-bg::before,
@@ -44,18 +48,18 @@ body {
   height: 600px;
   border-radius: 50%;
   filter: blur(100px);
-  opacity: 0.3;
+  opacity: 0.4;
   animation: float 20s ease-in-out infinite;
 }
 
 .animated-bg::before {
-  background: radial-gradient(circle, rgba(255,107,53,0.3) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255,179,71,0.3) 0%, transparent 70%);
   top: -200px;
   left: -200px;
 }
 
 .animated-bg::after {
-  background: radial-gradient(circle, rgba(100,100,255,0.2) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(135,206,235,0.25) 0%, transparent 70%);
   bottom: -200px;
   right: -200px;
   animation-delay: -10s;
@@ -88,7 +92,7 @@ body {
   display: inline-block;
   padding: 1rem 2.5rem;
   background: var(--accent);
-  color: var(--text-light);
+  color: #FFFFFF;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
@@ -101,7 +105,7 @@ body {
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(255,107,53,0.4);
+  box-shadow: 0 10px 30px rgba(255,140,66,0.4);
 }
 
 /* Utility Classes */
@@ -133,6 +137,6 @@ html {
 
 /* Selection styling */
 ::selection {
-  background: var(--accent);
-  color: var(--text-light);
+  background: var(--accent-secondary);
+  color: #FFFFFF;
 }

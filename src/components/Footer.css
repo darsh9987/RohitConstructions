@@ -2,10 +2,10 @@ footer {
     margin-top: 6rem;
     padding: 3rem 2rem;
     text-align: center;
-    border-top: 1px solid var(--glass-border);
+    border-top: 1px solid var(--border-light);
 }
 
 .footer-content p {
-    color: var(--text-gray);
+    color: var(--text-medium);
     margin-bottom: 0.5rem;
 }

@@ -14,7 +14,7 @@
 
 .client-logo:hover {
     transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 179, 71, 0.1);
 }
 
 .client-logo img {
@@ -30,7 +30,7 @@
 }
 
 .client-name {
-    color: var(--text-gray);
+    color: var(--text-medium);
     font-weight: 600;
     font-size: 0.95rem;
     margin: 0;
@@ -38,5 +38,5 @@
 }
 
 .client-logo:hover .client-name {
-    color: var(--text-light);
+    color: var(--text-dark);
 }
