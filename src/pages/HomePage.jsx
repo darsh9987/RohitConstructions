@@ -4,6 +4,13 @@ import './HomePage.css';
 function HomePage({ setCurrentPage }) {
     return (
         <div className="hero">
+            <div className="hero-image-container">
+                <img
+                    src="/construction-hero.png"
+                    alt="Construction workers in orange suits and yellow helmets working with crane at building top"
+                    className="hero-construction-image"
+                />
+            </div>
             <div className="hero-content">
                 <h1>In Pursuit of Your Perfect Project</h1>
                 <p>Providing exceptional construction services across Pune since 2012. Building excellence with a legacy spanning four decades.</p>
