@@ -82,7 +82,7 @@ export const ongoingProjects = [
     {
         name: "Aura Aiwa",
         client: "Ranawat Group",
-        type: "Residential/Commercial",
+        type: "Residential & Commercial",
         area: "2,10,000",
         specs: "1 Tower, 18 Floors",
         location: "NIBM (Mohammedwadi)",
@@ -107,8 +107,17 @@ export const ongoingProjects = [
         image: "/assets/projects/navkar_osian_realty.jpg"
     },
     {
+        name: "Revanta",
+        client: "Surana Landmarks",
+        type: "Residential & Commercial",
+        area: "80,000",
+        specs: "1 Tower, 15 Floors",
+        location: "Lullanagar, Pune",
+        image: "/assets/projects/Revanta_project.jpeg"
+    },
+    {
         name: "Bunglow Project",
-        client: "Tav Architecture",
+        client: "Tau Architecture",
         type: "Residential",
         area: "11,000",
         specs: "Bunglow",
@@ -121,7 +130,6 @@ export const clientLogos = [
     { name: "Ranawat Group", logo: "/assets/logos/ranawat_group_logo.png" },
     { name: "Goel Ganga Group", logo: "/assets/logos/GGG-logo-New-Arrow-webp.webp" },
     { name: "Ikon Landmarks", logo: "/assets/logos/ikon_landmarks_llp_logo.png" },
-    { name: "Panchshil Realty", logo: "/assets/logos/panchshil_logo.png" },
     { name: "Marvel Realtors", logo: "/assets/logos/marvelLogo.png" },
     { name: "Avishkar Realty", logo: "/assets/logos/avishkar_logo.png" },
     { name: "Panchshil Realty", logo: "/assets/logos/panchshil_logo.png" },
