@@ -16,7 +16,7 @@ function HomePage({ setCurrentPage }) {
                 <p>Providing exceptional construction services across Pune since 2012. Building excellence with a legacy spanning four decades.</p>
                 <button className="btn" onClick={() => setCurrentPage('contact')}>Get a Quote</button>
                 <div className="hero-stats">
-                    <StatCard number="100+" label="Projects Completed" />
+                    <StatCard number="75+" label="Projects Completed" />
                     <StatCard number="40+" label="Years Legacy" />
                     <StatCard number="12M+" label="Sq.ft Built" />
                 </div>

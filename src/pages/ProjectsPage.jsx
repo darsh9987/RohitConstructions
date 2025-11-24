@@ -19,7 +19,7 @@ function ProjectsPage() {
         <div className="page-container">
             <div className="page-header">
                 <h1>Completed Projects</h1>
-                <p>Over 100 successfully delivered projects across Pune</p>
+                <p>Over 75 successfully delivered projects across Pune</p>
             </div>
 
             <div className="container">

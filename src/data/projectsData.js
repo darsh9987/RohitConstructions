@@ -71,36 +71,26 @@ export const completedProjects = [
     { name: "Shanti Elixir", client: "Devya Nand", location: "Keshavnagar", type: "Residential", area: "200,000" },
     { name: "Vedant Kingston", client: "Vedant", location: "Mohmmadwadi", type: "Residential", area: "200,000" },
     { name: "Gagan Utopia", client: "Gagan Properties", location: "Keshavnagar", type: "Residential", area: "225,000" },
-    { name: "Fortune Perfect", client: "Fortune Developers", location: "Kondhwa", type: "Residential", area: "65,000" }
+    { name: "Fortune Perfect", client: "Fortune Developers", location: "Kondhwa", type: "Residential", area: "65,000" },
+    { name: "Silver Urbania", client: "Silver Rise Group", location: "Moshi, PCMC", type: "Residential", area: "6,00,000" },
+    { name: "Urban Skyline", client: "Urban Space Creators", location: "Ravet, PCMC", type: "Residential", area: "3,00,000" },
+    { name: "The Platinum Towers", client: "A Advani Realty", location: "Kharadi, Pune", type: "Commercial", area: "3,75,000" },
+    { name: "GSV Vertica", client: "Basil Group", location: "Kharadi-Mundhwa Road", type: "Commercial", area: "80,000" }
 ];
 
 export const ongoingProjects = [
     {
-        name: "Silver Urbania",
-        type: "Residential",
-        area: "6,00,000",
-        specs: "3 Towers, 21 Floors",
-        location: "Moshi, PCMC",
-        image: "/assets/projects/silver_urbania_project.jpg"
-    },
-    {
-        name: "Urban Skyline",
-        type: "Residential",
-        area: "3,00,000",
-        specs: "43 Floors",
-        location: "Ravet, PCMC",
-        image: "/assets/projects/urban_skyline_project.jpg"
-    },
-    {
-        name: "The Platinum Towers",
-        type: "Commercial",
-        area: "3,75,000",
-        specs: "Premium Office Space",
-        location: "Kharadi, Pune",
-        image: "/assets/projects/platinum_towers.jpg"
+        name: "Aura Aiwa",
+        client: "Ranawat Group",
+        type: "Residential/Commercial",
+        area: "2,10,000",
+        specs: "1 Tower, 18 Floors",
+        location: "NIBM (Mohammedwadi)",
+        image: "/assets/projects/aura_aiwa_building.webp"
     },
     {
         name: "One Ikon Beverly Hills",
+        client: "Ikon Landmarks",
         type: "Residential",
         area: "3,50,000",
         specs: "Luxury Apartments",
@@ -108,38 +98,44 @@ export const ongoingProjects = [
         image: "/assets/projects/one_ikon_bev_hills_project.jpg"
     },
     {
-        name: "GSV Vertica",
-        type: "Commercial",
-        area: "80,000",
-        specs: "Business Complex",
-        location: "Kharadi-Mundhwa Road",
-        image: "/assets/projects/gsv_vertica_project.jpg"
+        name: "Navkar",
+        client: "Osian Realty",
+        type: "Residential",
+        area: "1,00,000",
+        specs: "1 Tower, 15 Floors",
+        location: "Gultekadi, Pune",
+        image: "/assets/projects/navkar_osian_realty.jpg"
     },
     {
-        name: "Brentwood Commercial Centre",
-        type: "Commercial",
-        area: "70,000",
-        specs: "Retail & Offices",
-        location: "Baner, Pune",
-        image: "/assets/projects/brentwood_commercial_project.jpg"
+        name: "Bunglow Project",
+        client: "Tav Architecture",
+        type: "Residential",
+        area: "11,000",
+        specs: "Bunglow",
+        location: "Lullanagar, Pune",
+        image: "/assets/projects/lullanagar_bunglow_2.jpg"
     }
 ];
 
 export const clientLogos = [
-    { name: "Karia Builders", logo: "/assets/logos/Karia_logo.png" },
+    { name: "Ranawat Group", logo: "/assets/logos/ranawat_group_logo.png" },
+    { name: "Goel Ganga Group", logo: "/assets/logos/GGG-logo-New-Arrow-webp.webp" },
+    { name: "Ikon Landmarks", logo: "/assets/logos/ikon_landmarks_llp_logo.png" },
     { name: "Panchshil Realty", logo: "/assets/logos/panchshil_logo.png" },
     { name: "Marvel Realtors", logo: "/assets/logos/marvelLogo.png" },
+    { name: "Avishkar Realty", logo: "/assets/logos/avishkar_logo.png" },
+    { name: "Panchshil Realty", logo: "/assets/logos/panchshil_logo.png" },
     { name: "Pride Group", logo: "/assets/logos/Pride-Group-Logo.svg" },
-    { name: "Goel Ganga Group", logo: "/assets/logos/GGG-logo-New-Arrow-webp.webp" },
-    { name: "Venkatesh Group", logo: "/assets/logos/shree_venkatesh_logo.png" },
     { name: "VTP Realty", logo: "/assets/logos/vtp_logo.png" },
     { name: "Paranjape Schemes", logo: "/assets/logos/Paranjape-New-logo-011.svg" },
     { name: "Vilas Javdekar", logo: "/assets/logos/vj_logo.svg" },
     { name: "Sukhwani Group", logo: "/assets/logos/sukhwani_logo.png" },
-    { name: "Gagan Properties", logo: "/assets/logos/gagan-developers-logo.svg" },
-    { name: "Siddhashila", logo: "/assets/logos/siddhashila-logo.svg" },
+    { name: "G Orbit Builders", logo: "/assets/logos/g_orbit_logo.png" },
+    { name: "Gagan Developers", logo: "/assets/logos/gagan-developers-logo.svg" },
+    { name: "Panama Sunarch", logo: "/assets/logos/panama_sunarch_logo.png" },
     { name: "Gokhale Constructions", logo: "/assets/logos/Gokhale_Constructions_logo.jpg" },
-    { name: "Ikon Landmarks", logo: "/assets/logos/ikon_landmarks_llp_logo.png" }
+    { name: "Siddhashila Developers", logo: "/assets/logos/siddhashila-logo.svg" },
+    { name: "Osian Realty", logo: "/assets/logos/osian_realty_logo.jpg" }
 ];
 
 export const projectTypes = ["All", "Residential", "Commercial", "Residential & Commercial", "Hospital", "College", "Parking"];

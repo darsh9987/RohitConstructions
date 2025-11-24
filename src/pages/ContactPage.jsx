@@ -39,7 +39,7 @@ function ContactPage() {
                             <div className="contact-icon">📍</div>
                             <div>
                                 <strong>Address</strong>
-                                <p>Pune, Maharashtra, India</p>
+                                <p>301 Isabella, 77/559, Sahney Sujjan Park, Lullanagar, Pune, Maharashtra, India - 411040</p>
                             </div>
                         </div>
 
@@ -47,7 +47,8 @@ function ContactPage() {
                             <div className="contact-icon">📞</div>
                             <div>
                                 <strong>Phone</strong>
-                                <p>+91 XXX XXX XXXX</p>
+                                <p>+91 9922 88 7699</p>
+                                <p>+91 8830 83 4674</p>
                             </div>
                         </div>
 
@@ -55,7 +56,7 @@ function ContactPage() {
                             <div className="contact-icon">✉️</div>
                             <div>
                                 <strong>Email</strong>
-                                <p>info@rohitconstructions.com</p>
+                                <p>rohitconstructions@icloud.com</p>
                             </div>
                         </div>
 
@@ -63,7 +64,7 @@ function ContactPage() {
                             <div className="contact-icon">🕒</div>
                             <div>
                                 <strong>Business Hours</strong>
-                                <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
+                                <p>Monday - Saturday: 10:00 AM - 8:00 PM</p>
                                 <p>Sunday: Closed</p>
                             </div>
                         </div>
@@ -118,6 +119,7 @@ function ContactPage() {
                                     <option value="">Select a type</option>
                                     <option value="residential">Residential</option>
                                     <option value="commercial">Commercial</option>
+                                    <option value="bunglow">Bunglow</option>
                                     <option value="hospital">Hospital</option>
                                     <option value="other">Other</option>
                                 </select>
